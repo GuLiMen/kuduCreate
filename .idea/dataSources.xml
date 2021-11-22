@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@10.170.1.36" uuid="cb739410-cf14-4932-a1a0-b2e68fa4e33a">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//10.170.1.36:1521/qtreport</jdbc-url>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="impala" uuid="0b03b3bc-5e2a-4a5e-9c29-ff7e7ab167e9">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.cloudera.impala.jdbc41.Driver</jdbc-driver>
+      <jdbc-url>jdbc:impala://10.170.3.13:21050/default;UseSasl=0;AuthMech=3;UID=qtkj;PWD=qt_qt;characterEncoding=utf-8</jdbc-url>
+    </data-source>
+  </component>
+</project>
